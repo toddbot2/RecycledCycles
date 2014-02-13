@@ -1,0 +1,98 @@
+
+
+.header{
+	background-color: #262626;
+	font-family: "Helvetica Neue";
+	font-size: 14px;
+	color: gray;
+	padding: 10px 0 2px 0;
+
+}
+
+.info{
+	margin:5px;
+}
+
+.floating-header{
+	background-color: #2980b9;
+	padding: 0px 0 5px 0;
+	font-family: "Haettenschweiler";
+	font-size: 45px;
+	color: #262626;
+}
+
+.content div{
+	font-family: "Futura";
+	font-size: 30px;
+	color:#262626;
+	margin-top:15px;
+}
+
+.content-box{
+	height: 250px;
+	background-color: #2980b9;
+	border-top:#f1c40f solid 5px;
+	border-bottom: black solid 5px;
+}
+
+.locations{
+	background-color: #262626;
+	color: white;
+	font-family: "Futura";
+	font-size: 25px;
+	height:500px;
+	margin-top: 20px;
+
+}
+
+a:link{
+	color:black;
+	text-decoration: none;
+}
+
+a:visited{
+	color:black;
+}
+
+a:hover{
+	color: #f1c40f;
+}
+
+
+.content-text{
+	font-family: "Helvetica Neue";
+	font-size: 25px;
+}
+
+.header-image{
+	margin-top:20px;
+}
+
+.nav{
+	list-style: none;
+	float:left;
+	z-index: 5;
+	position: relative;
+}
+
+.nav li{
+	position: relative;
+}
+
+.nav a{
+	display: block;
+}
+
+.nav ul{
+	position: absolute;
+	left: -9999px;
+	list-style: none;
+}
+
+.nav a{
+	white-space: nowrap;
+}
+
+.nav ul:hover{
+	left:0;
+}
